@@ -1,14 +1,14 @@
 import { BotaoNavegacao, HeaderContainer } from "./styles"
 import menu from "../../assets/assets/menu.png"
 
-function Header(){
+function Header(props){
 
     const handlePageChange=()=>{
-        props.pagina
+        props.pagina()
     }
     return(
     <HeaderContainer>
-        <BotaoNavegacao>
+        <BotaoNavegacao onClick={handlePageChange}>
             <img src={menu} alt="imagem do botão de navegação do menu"/>
         </BotaoNavegacao>
         

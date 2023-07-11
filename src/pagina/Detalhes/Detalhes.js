@@ -19,7 +19,7 @@ function Detalhes(props){
                 </TextoDonuts>
 
                 <MaisProdutos>
-                    <img src=""/>
+                    <img src="" alt='imagem'/>
                     <TextNumber> 7800 </TextNumber>
                 </MaisProdutos>
 
