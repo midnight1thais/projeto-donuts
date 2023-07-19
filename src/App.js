@@ -10,9 +10,11 @@ function App() {
   // setTrocarDePagina é a função que faz o estado ser atualizado
   const [trocarDePagina, setTrocarDePagina] = useState(0)
 
-  const changePage = (change) =>{
+  const changePage = (change)=>{
     setTrocarDePagina(change)
   }
+
+  
   return (
    <>
    <CorFundo>

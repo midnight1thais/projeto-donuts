@@ -1,4 +1,5 @@
 import Header from '../../componentes/Header/Header'
+import donutsGrande from "../../assets/assets/donut2 1.png"
 
 
 import { BotaoAddCard, BotaoMore, ContainerDetalhes, ContainerDiv, ImagemGrande, MaisProdutos, TextMore, TextNumber, TextoDonuts, TituloDonuts } from "./styled"
@@ -9,7 +10,7 @@ function Detalhes(props){
     <>
     <Header pagina={props.pagina}/>
         <ContainerDetalhes>
-            <ImagemGrande src='' alt=''/>
+            <ImagemGrande src={donutsGrande} alt=''/>
             <ContainerDiv>
                 <TituloDonuts>
                     Unicorn Sprinkles

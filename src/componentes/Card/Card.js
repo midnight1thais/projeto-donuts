@@ -1,4 +1,4 @@
-import { CardContainer, ImagemCard, TextCard, DivCard, TituloCard } from "./styles";
+import { CardContainer, DivCard, ImagemCard, TextCard, TituloCard } from "./styles";
 import donutsUnicorn from "../../assets/assets/donut 1.png"
 
 function Card(){

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const ContainerDetalhes = styled.section`
     display: flex;
@@ -17,11 +17,12 @@ export const ContainerDiv = styled.div`
     width: 80vw;    
 `
 
+
 export const TituloDonuts = styled.h2`
     font-size: 30px;
     color:white;
     font-weight: 600;
-`
+    `
 
 export const TextoDonuts = styled.p`
     width: 65vw;
@@ -34,7 +35,7 @@ export const MaisProdutos = styled.div`
     align-items: center;
     justify-content: space-between;
     color: white;
-`
+    `
 
 export const TextNumber = styled.p`
     font-size: 24px;
